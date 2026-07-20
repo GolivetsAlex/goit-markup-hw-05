@@ -1,0 +1,32 @@
+.features-box {
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    background-color: #f4f4fd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.features-icon {
+    color: #2e2f42;
+}
+
+.strategy-section {
+    padding: 120px 0;
+}
+
+.strategy-section .card-title {
+    padding-top: 8px;
+}
+
+.strategy-section .card-text {
+    padding-top: 8px;
+}
+.features-list {
+    display: flex;
+    flex-direction: row;
+    flex-basis: calc((100% - 72px) / 4);
+    gap: 24px;
+}
