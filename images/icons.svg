@@ -48,8 +48,8 @@
         <symbol id="tg-icon" viewBox="0 0 24 20" fill="none">
             <path fill="currentColor" d="M24 0 0 11.25l7.6699 2.3672L19.5 4.375 10.5017 14.4913l73e-4 23e-4-9e-3-23e-4V20l4.3013-4.1817 5.4488 1.6817z" />
         </symbol>
-        <symbol id="close" viewBox="0 0 8 8" fill="none">
-            <path fill="var(--color0, #2e2f42)" d="M8 0.8057 7.1943 0 4 3.1943 0.8057 0 0 0.8057 3.1943 4 0 7.1943 0.8057 8 4 4.8057 7.1943 8 8 7.1943 4.8057 4z" />
+        <symbol id="close" viewBox="0 0 8 8">
+            <path d="M8 0.8057 7.1943 0 4 3.1943 0.8057 0 0 0.8057 3.1943 4 0 7.1943 0.8057 8 4 4.8057 7.1943 8 8 7.1943 4.8057 4z" />
             <defs>
                 <clipPath id="clip0_1079720_188">
                     <rect fill="#fff" width="8" height="8" />
