@@ -15,8 +15,7 @@
 }
 
 .modal-overlay.active {
-    opacity: ;
-    pointer-events: auto;
+    pointer-events: 0;
 }
 
 .modal {
