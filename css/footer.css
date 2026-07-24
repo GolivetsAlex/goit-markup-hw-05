@@ -79,7 +79,7 @@
 
 
 .footer-subscribe  {
-    padding-left: 80px;
+    padding-left: 83px;
     display: flex;
     flex-direction: column;     
     align-items: flex-start;     
@@ -116,6 +116,7 @@
 
 .form-subscribe-line {
     padding-left: 16px;
+    font-weight: 400;
     border: 1px solid;
     border-radius: 4px;
     color: #fff;
