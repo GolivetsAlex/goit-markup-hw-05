@@ -17,6 +17,7 @@
         text-transform: uppercase;
         color: var(--iris);
 }
+
 .footer-span-studio {
     color: var(--cloud);
     font-weight: 700;
@@ -26,7 +27,7 @@
     text-transform: uppercase;
     max-width: 115px;
 }
-.footer-section p {
+.footer-content p {
     max-width: 264px;
     color: #f4f4fd;
     line-height: 1.5;
@@ -47,6 +48,8 @@
 }
 
 .footer-socials {
+    display: flex;
+    justify-content: flex-start;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -54,7 +57,6 @@
     letter-spacing: 0.02em;
     color: #fff;
 }
-
 
 .footer-div-social .socials {
     gap: 16px;
@@ -66,10 +68,79 @@
     background-color: #31d0aa;
 }
 
-.footer-text{
+.footer-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+}
+
+
+
+.footer-subscribe  {
+   padding-left: 80px ;
+    display: flex;
+    align-items: center; 
+}
+
+.form-subscribe {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    gap: 24px;
+}
+
+.form-label-subscribe {
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    gap: 16px;
+}
+
+.form-subscribe-line {
+    padding-left: 16px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    width: 264px;
+    height: 40px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background-color: #2E2F42;
+      line-height: 2;
+    letter-spacing: 0.04em;
+    font-size: 12px;
+}
+
+.form-subscribe-line::placeholder {
+  
+    color: #fff;
+}
+
+.subscribe-btn {
+    width: 165px;
+    height: 40px;
+    background-color: #4d5ae5;
+    border: none;
+    border-radius: 4px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding-left: ;
+    color: #fff;
+    position: relative;
+    display: flex;
+    align-items: center;      /* vertical centering, no translateY hack */
+    justify-content: center;
+    gap: 16px;
+
+
+}
+
+.tg-icon {
+    color: #fff;
+    align-items: center;
 }

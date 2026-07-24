@@ -16,7 +16,6 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/main.css" />
-    <link rel="stylesheet" href="./css/modal.css" />
   </head>
 
   <body>
@@ -463,12 +462,34 @@
                   </a>
                 </li>
             </ul>
-        </div>  
-      </div>  
-    </footer>
+        </div> 
 
+        <div class="footer-subscribe">
+          <form class="form-subscribe">
+            <label class="form-label-subscribe">
+              Subscribe
+              <input class="form-subscribe-line" type="email" name="email" placeholder="E-mail">
+            </label>
+          
+            
+              <button class="subscribe-btn" type="submit">
+                <p class="subscribe-word">
+                Subscribe
+                </p>
+                <svg class="tg-icon" width="24" height="24">
+                <use href="./images/tg-icon.svg#tg-icon"></use>
+              </svg>
+              </button>
+            
+            </form>
+
+          </div>
+        </div>
+      </div>  
+
+    </footer>
     
-    <div class="modal-overlay ">
+    <div id="modal" class="modal-overlay ">
       <div class="container modal">
         <button type="button" class="modal-close-btn">
           <svg class="modal-close-icon" width="8" height="8">
